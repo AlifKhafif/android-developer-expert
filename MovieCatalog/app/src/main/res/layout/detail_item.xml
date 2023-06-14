@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/activity_main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="16dp"
+    android:background="@color/baseColor">
+
+    <ImageView
+        android:id="@+id/img_photo_received"
+        android:layout_width="155dp"
+        android:layout_height="205dp"
+        android:background="#fff2ad"
+        android:scaleType="fitXY"/>
+
+    <TextView
+        style="@style/TextContent.White"
+        android:id="@+id/tv_name_received"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:layout_toRightOf="@+id/img_photo_received"
+        android:text="@string/name_movie"
+        android:textSize="20sp"
+        android:textStyle="bold"/>
+    <TextView
+        android:id="@+id/tv_genre"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/tv_name_received"
+        android:layout_marginStart="16dp"
+        android:textColor="@color/subTextColor"
+        android:layout_toRightOf="@+id/img_photo_received"
+        android:text="Genre: "
+        android:textSize="14sp"/>
+
+    <TextView
+        android:id="@+id/tv_genre_received"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/tv_name_received"
+        android:textColor="@color/subTextColor"
+        android:layout_toRightOf="@+id/tv_genre"
+        android:text="Genre"
+        android:textSize="14sp"/>
+
+    <TextView
+        android:id="@+id/tv_release"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/tv_genre_received"
+        android:layout_marginTop="6dp"
+        android:layout_marginStart="16dp"
+        android:layout_toRightOf="@+id/img_photo_received"
+        android:textColor="@color/subTextColor"
+        android:text="Release: "
+        android:textSize="14sp"/>
+
+    <TextView
+        android:id="@+id/tv_release_received"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/tv_genre_received"
+        android:layout_marginTop="6dp"
+        android:layout_toRightOf="@+id/tv_release"
+        android:textColor="@color/subTextColor"
+        android:text="Date Release"
+        android:textSize="14sp"/>
+
+    
+    <TextView
+        android:id="@+id/tv_runtime_received"
+        android:textColor="@color/subTextColor"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:textSize="18dp"
+        android:layout_below="@+id/img_photo_received"
+        android:text="Runtime : 100 min"/>
+
+    <TextView
+        style="@style/TextContent.White"
+        android:id="@+id/tv_storyline"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:layout_below="@+id/tv_runtime_received"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        android:textColor="@color/priColor"
+        android:text="Storyline"/>
+
+    <TextView
+        android:id="@+id/tv_description_received"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/tv_storyline"
+        android:layout_marginTop="4dp"
+        android:text="@string/lorem"
+        android:textColor="@color/textColor"
+        android:textSize="16sp" />
+
+</RelativeLayout>

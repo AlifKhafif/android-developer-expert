@@ -1,0 +1,89 @@
+<resources>
+    <string name="app_name">MovieCatalogue</string>
+    <string name="name_movie">Nama Movie</string>
+    <string name="lorem">lorem ipsum dolor sit amet</string>
+
+    <string-array name="data_name">
+        <item>Aquaman</item>
+        <item>Avengers: Infinity War</item>
+        <item>Bumblebee</item>
+        <item>Creed II</item>
+        <item>Dragon Ball Super: Broly</item>
+        <item>How to Train Your Dragon: The Hidden World</item>
+        <item>Preman Pensiun</item>
+        <item>Robin Hood</item>
+        <item>Spider-Man: Into the Spider-Verse</item>
+        <item>Venom</item>
+        <item>Bird Box</item>
+    </string-array>
+
+    <string-array name="data_realese">
+        <item>12 December 2018</item>
+        <item>25 April 2018</item>
+        <item>19 Desember 2018</item>
+        <item>28 November 2018</item>
+        <item>16 Februari 2019</item>
+        <item>9 Januari 2019</item>
+        <item>17 Januari 2019</item>
+        <item>20 November 2018</item>
+        <item>12 Desember 2018</item>
+        <item>3 Oktober 2018</item>
+        <item>21 December 2018</item>
+    </string-array>
+
+    <string-array name="data_genre">
+        <item>Sci-Fi, Fantasy, Action, Adventure</item>
+        <item>Action, Adventure, Sci-Fi </item>
+        <item>Action, Adventure, Sci-Fi</item>
+        <item>Drama, Sport</item>
+        <item>Animation, Action, Adventure</item>
+        <item>Animation, Action, Adventure</item>
+        <item>Drama,Comedy-drama</item>
+        <item>Action, Adventure, Thriller</item>
+        <item>Animation, Action, Adventure</item>
+        <item>Action, Sci-Fi, Thriller</item>
+        <item>Drama, Horror, Sci-Fi</item>
+    </string-array>
+
+    <string-array name="data_runtime">
+        <item>Runtime: 143 min</item>
+        <item>Runtime: 149 min</item>
+        <item>Runtime: 114 min</item>
+        <item>Runtime: 130 min</item>
+        <item>Runtime: 100 min</item>
+        <item>Runtime: 104 min</item>
+        <item>Runtime: 94 min</item>
+        <item>Runtime: 116 min</item>
+        <item>Runtime: 117 min | 143 min (Alt Universe Cut)</item>
+        <item>Runtime: 112 min</item>
+        <item>Runtime: 124 min</item>
+    </string-array>
+
+    <string-array name="data_description">
+        <item>Arthur Curry, half human half from Atlantis, goes on a trip of a lifetime. Not only does this adventure compel him to come to terms with his real identity, but it also forces him to discover whether he is entirely worthy of fulfilling his own destiny: becoming a king.</item>
+        <item>As the Avengers and their allies have continued to protect the world from threats too large for any one hero to handle, a new danger has emerged from the cosmic shadows: Thanos. A despot of intergalactic infamy, his goal is to collect all six Infinity Stones, artifacts of unimaginable power, and use them to inflict his twisted will on all of reality. Everything the Avengers have fought for has led up to this moment, the fate of Earth and existence has never been more uncertain.</item>
+        <item>On Cybertron, the Autobots, led by Optimus Prime, are on the verge of losing the Great Cybertronian War to their enemies, the Decepticons, and begin making preparations to leave the planet. The Decepticons led by Shockwave, Soundwave and Starscream ambush them during the evacuation, and Optimus sends a young scout, B-127, to Earth in order to set up a base of operations where the Autobots can regroup.</item>
+        <item>Years after Adonis Creed made a name for himself under Rocky Balboas mentorship, the young boxer becomes the Heavyweight Champion of the World. While life is good with that victory and his marriage to Bianca, trouble comes to Philadelphia when Ivan Drago, the Russian boxer who killed Adonis father, Apollo, arrives with his son, Viktor, to challenge Adonis.</item>
+        <item>Goku and Vegeta encounter Broly, a Saiyan warrior unlike any fighter they have faced before.</item>
+        <item>As Hiccup fulfills his dream of creating a peaceful dragon utopia, Toothless discovery of an untamed, elusive mate draws the Night Fury away. When danger mounts at home and Hiccups reign as village chief is tested, both dragon and rider must make impossible decisions to save their kind.</item>
+        <item>After three years, the kecimpring Muslihat (Epi Kusnandar) business that had retired as a thug, was having problems. Sales decreased. Muslihat also faced new problems when Safira (Safira Maharani), her only daughter, grew up a teenager and began to be visited by men. Bigger problem: a problem between his former subordinates.</item>
+        <item>A war-hardened crusader Robin of Loxley (Taron Egerton) and his Moorish commander (Jamie Foxx) mount an audacious revolt against the corrupt English crown. Robin Hood (Taron Egerton) as a crusader returned to his country under different circumstances. He found corrupt officials and spent royal money while the people were miserable. Together with Little John (Jamie Foxx), he fought a very strong British tyranny.</item>
+        <item>Miles Morales is a New York teen struggling with school, friends and, on top of that, being the new Spider-Man. When he comes across Peter Parker, the erstwhile saviour of New York, in the multiverse, Miles must train to become the new protector of his city.</item>
+        <item>After a faulty interview with the Life Foundation ruins his career, former reporter Eddie Brocks life is in pieces. Six months later, he comes across the Life Foundation again, and he comes into contact with an alien symbiote and becomes Venom, a parasitic antihero.</item>
+        <item>In the wake of an unknown global terror, a mother must find the strength to flee with her children down a treacherous river in search of safety. Due to unseen deadly forces, the perilous journey must be made blindly. Directed by Emmy winner Susanne Bier, Bird Box is a thriller starring Academy Award winner Sandra Bullock, John Malkovich, Sarah Paulson, and Trevante Rhodes.</item>
+    </string-array>
+
+    <array name="data_photo">
+        <item>@drawable/poster_aquaman</item>
+        <item>@drawable/poster_avengerinfinity</item>
+        <item>@drawable/poster_bumblebee</item>
+        <item>@drawable/poster_creed</item>
+        <item>@drawable/poster_dragonball</item>
+        <item>@drawable/poster_dragon</item>
+        <item>@drawable/poster_preman</item>
+        <item>@drawable/poster_robinhood</item>
+        <item>@drawable/poster_spiderman</item>
+        <item>@drawable/poster_venom</item>
+        <item>@drawable/poster_birdbox</item>
+    </array>
+</resources>
